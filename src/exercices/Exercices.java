@@ -5,7 +5,10 @@
  */
 package exercices;
 
+import exercices.core.Application;
 import exercices.heritage.Heritage;
+import exercices.recucivite.suites.entier.SuiteEntier;
+import exercices.recucivite.suites.fibonacci.SuiteFibonacci;
 
 /**
  *
@@ -18,7 +21,7 @@ public class Exercices {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Heritage exo1 = new Heritage();
+        Application exo1 = new SuiteFibonacci();
         exo1.start();
     }
     
